@@ -1,0 +1,18 @@
+20180507_08:19:24.406 [o.w.b.Application][main] [911 ] [    ][INFO] Starting Application on w00450 with PID 7392 (D:\idea\winne\winne-bookstore\target\classes started by w00450 in D:\idea\winne)
+20180507_08:19:24.423 [o.w.b.Application][main] [928 ] [    ][DEBUG] Running with Spring Boot v2.0.1.RELEASE, Spring v5.0.5.RELEASE
+20180507_08:19:24.425 [o.w.b.Application][main] [930 ] [    ][INFO] No active profile set, falling back to default profiles: default
+20180507_08:21:41.675 [o.w.b.Application][main] [1157] [    ][INFO] Starting Application on w00450 with PID 8100 (D:\idea\winne\winne-bookstore\target\classes started by w00450 in D:\idea\winne)
+20180507_08:21:41.680 [o.w.b.Application][main] [1162] [    ][DEBUG] Running with Spring Boot v2.0.1.RELEASE, Spring v5.0.5.RELEASE
+20180507_08:21:41.681 [o.w.b.Application][main] [1163] [    ][INFO] No active profile set, falling back to default profiles: default
+20180507_08:21:46.676 [o.w.b.Application][main] [6158] [    ][INFO] Started Application in 5.955 seconds (JVM running for 6.545)
+20180507_08:23:17.565 [o.w.b.s.i.BookServiceImpl][http-nio-8080-exec-1] [97047] [    ][INFO] 查询书籍
+20180507_08:23:17.724 [o.w.b.d.B.selectByExample][http-nio-8080-exec-1] [97206] [    ][DEBUG] ==>  Preparing: select id, name, author, press, press_date, isbn, page, word_count, create_time, update_time from book 
+20180507_08:23:17.747 [o.w.b.d.B.selectByExample][http-nio-8080-exec-1] [97229] [    ][DEBUG] ==> Parameters: 
+20180507_08:23:17.773 [o.w.b.d.B.selectByExample][http-nio-8080-exec-1] [97255] [    ][DEBUG] <==      Total: 1
+20180507_08:23:25.827 [o.w.b.s.i.BookServiceImpl][http-nio-8080-exec-3] [105309] [    ][INFO] 查询书籍，ID：b020c2c7166545ec8c9aab88cde46e0d
+20180507_08:23:25.828 [o.w.b.d.B.selectByPrimaryKey][http-nio-8080-exec-3] [105310] [    ][DEBUG] ==>  Preparing: select id, name, author, press, press_date, isbn, page, word_count, create_time, update_time from book where id = ? 
+20180507_08:23:25.829 [o.w.b.d.B.selectByPrimaryKey][http-nio-8080-exec-3] [105311] [    ][DEBUG] ==> Parameters: b020c2c7166545ec8c9aab88cde46e0d(String)
+20180507_08:23:25.830 [o.w.b.d.B.selectByPrimaryKey][http-nio-8080-exec-3] [105312] [    ][DEBUG] <==      Total: 1
+20180507_08:27:45.274 [o.w.b.Application][main] [1162] [    ][INFO] Starting Application on w00450 with PID 8580 (D:\idea\winne\winne-bookstore\target\classes started by w00450 in D:\idea\winne)
+20180507_08:27:45.278 [o.w.b.Application][main] [1166] [    ][DEBUG] Running with Spring Boot v2.0.1.RELEASE, Spring v5.0.5.RELEASE
+20180507_08:27:45.281 [o.w.b.Application][main] [1169] [    ][INFO] No active profile set, falling back to default profiles: default
